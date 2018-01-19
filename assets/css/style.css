@@ -1,10 +1,50 @@
 body {
     background: #ffffff;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+.container {
+    width: 960px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #main-header {
-    background: #4aaaa5;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
+    border-bottom: grey solid;
 }
+
+#my-name {
+    background: #4aaaa5;
+    font-family: Georgia;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    margin-left: 90px;
+    padding: 30px;
+    width: 150px;
+    height: 30px;
+}
+
+#about-link {
+    float: right;
+    border-right: solid;
+    border-right: grey;
+    color: grey;
+}
+
+#portfolio-link {
+    float: right;
+    border-right: solid;
+    border-right: grey;
+    color: grey;
+}
+
+#contact-link {
+    float: right;
+    color: grey;
+}
+
