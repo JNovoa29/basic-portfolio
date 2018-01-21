@@ -1,3 +1,5 @@
+/* main about me page */
+
 body {
     background: #ffffff; 
 }
@@ -47,6 +49,7 @@ header {
 #about-link {
     color: grey;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
     border-right: solid 1px grey;
     padding: 0 8px 5px 8px;
 }
@@ -54,12 +57,14 @@ header {
 #portfolio-link {
     color: grey;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
     border-right: solid 1px grey;
     padding: 0 8px 5px 8px;
 }
 
 #contact-link {
     color: grey;
+    text-decoration: none;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -155,6 +160,100 @@ p {
     color: #666666;
     text-align: center;
     font-size: 12px;
-
 }
+
+/* contact page */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
+
+.container-contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 446px;
+}
+
+/* portfolio page */
+
+#hangman-photo {
+    float: left;
+    width: 100px;
+    height: 100px;
+ }   
+
+ #hangman-link {
+     float: left;
+     text-align: center;
+     text-decoration: none;
+ }
+
+#rpg-game-photo {
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+#rpg-game-link {
+    float: right;
+    text-decoration: none;
+}
+
+#trivia-photo {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+#trivia-link {
+    float: left;
+    text-decoration: none;
+}
+
+#widget-photo {
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+#widget-link {
+    float: right;
+    text-decoration: none;
+}
+
+#rockpaperscissors-photo {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+#rockpaperscissors-link {
+    float: left;
+    text-decoration: none;
+}
+
+
+
+
 
