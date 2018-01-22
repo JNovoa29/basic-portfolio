@@ -152,14 +152,14 @@ p {
 
 }
 
-#footer {
-    margin-bottom: 0;
-    padding-top: 30px;
-    padding-bottom: 30px;
+footer {
+    padding-top: 40px;
+    padding-bottom: 20px;
     background-color:#444;
     color: #666666;
     text-align: center;
     font-size: 12px;
+    border-top: solid 2.5px #4aaaa5;
 }
 
 /* contact page */
@@ -197,17 +197,38 @@ input[type=submit]:hover {
 
 /* portfolio page */
 
+.portfolio-container {
+    width: 650px;
+    height: 555px;
+    float: left;
+    background: white;
+    border: #cccccc solid 1px;
+}
+
+.hangman-container {
+    float: left;
+    width: 193px;
+    height: 145px;
+    padding: 25px 15px 25px  22px;
+}
+
+#text-overlay1 {
+    float: left;
+    text-decoration: none;
+    background-color: #4aaaa5 ;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#ffffff ;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+
 #hangman-photo {
     float: left;
-    width: 100px;
     height: 100px;
+    width: 100px;
+    padding: 20px 20px 20px 5px;
  }   
 
- #hangman-link {
-     float: left;
-     text-align: center;
-     text-decoration: none;
- }
 
 #rpg-game-photo {
     float: right;
@@ -252,6 +273,9 @@ input[type=submit]:hover {
     float: left;
     text-decoration: none;
 }
+
+
+
 
 
 
