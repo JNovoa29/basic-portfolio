@@ -205,83 +205,88 @@ input[type=submit]:hover {
     border: #cccccc solid 1px;
 }
 
-/* .hangman-container {
-    float: left;
-    width: 193px;
-    height: 145px;
-    padding: 25px 15px 25px  22px;
+/* #hangman-photo {
+    width: 200px;
+    height: 200px;
+    background: url("../images/hangman.png");
+    background-size: 100%;
+}
+
+#text-overlay {
+    background: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
 } */
 
-
-
-/* .hangman-container {
-    position: relative;
-    height: 100px;
-    width: 100px; */
-
-/* } */
-
-.man {
-    position: relative;
-    height: 100px;
-    width: 100px;
+.hangman {
+    float: left;
+    padding: 15px 15px 15px 15px;
 
 }
 
-.textoverlay1 {
-    position: absolute;
-    height: 60px;
-    width: 98px;
-    bottom: 0px;
-    left: 0px;
-    background-color: #4aaaa5 ;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color:#ffffff ;
+    .h-overlay {
+        text-align: center;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        font-family: "Georgia", Times, Times New Roman, serif;
+        padding: 5px 5px 5px 5px;
+        margin-bottom: 20px;
+    }
+
+.rpg {
+    float: right;
+    padding: 15px 15px 15px 15px;
+}
+
+.r-overlay {
     text-align: center;
- }   
-
-#rpg-game-photo {
-    float: right;
-    width: 100px;
-    height: 100px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 20px;
 }
 
-#rpg-game-link {
-    float: right;
-    text-decoration: none;
-}
-
-#trivia-photo {
+.trivia {
     float: left;
-    width: 100px;
-    height: 100px;
+    padding: 15px 15px 15px 15px;
 }
 
-#trivia-link {
-    float: left;
-    text-decoration: none;
+.t-overlay {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 20px;
 }
 
-#widget-photo {
+.widget {
     float: right;
-    width: 100px;
-    height: 100px;
+    padding: 15px 15px 15px 15px;
 }
 
-#widget-link {
-    float: right;
-    text-decoration: none;
+.w-overlay {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 20px;
 }
 
-#rockpaperscissors-photo {
+.rps {
     float: left;
-    width: 100px;
-    height: 100px;
+    padding: 15px 15px 15px 15px;
 }
 
-#rockpaperscissors-link {
-    float: left;
-    text-decoration: none;
+.rps-overlay {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 20px;
 }
 
 
