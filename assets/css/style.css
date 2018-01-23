@@ -1,8 +1,5 @@
 /* main about me page */
 
-body {
-    background: #ffffff; 
-}
 header {
     height: 85px;
     border-bottom: solid 1.5px #cccccc;
@@ -21,10 +18,12 @@ header {
 }
 
 .body-container {
+    min-height: 100%;
     margin: 0 auto;
     height: 577px;
     padding-top: 20px; 
-    background: rgb(235, 233, 233)
+    background-image: url(background-image.png);
+    background-size: cover; 
 }
 
 #main-header {
@@ -123,6 +122,7 @@ p {
     color:  #cccccc;
     font-size: 16px;
     padding: 15px 15px 0 15px;
+    line-height: 30px;
 }
 
 #profile-photo {
@@ -152,7 +152,7 @@ p {
 
 }
 
-footer {
+#footer {
     padding-top: 40px;
     padding-bottom: 20px;
     background-color:#444;
@@ -205,30 +205,40 @@ input[type=submit]:hover {
     border: #cccccc solid 1px;
 }
 
-.hangman-container {
+/* .hangman-container {
     float: left;
     width: 193px;
     height: 145px;
     padding: 25px 15px 25px  22px;
+} */
+
+
+
+/* .hangman-container {
+    position: relative;
+    height: 100px;
+    width: 100px; */
+
+/* } */
+
+.man {
+    position: relative;
+    height: 100px;
+    width: 100px;
+
 }
 
-#text-overlay1 {
-    float: left;
-    text-decoration: none;
+.textoverlay1 {
+    position: absolute;
+    height: 60px;
+    width: 98px;
+    bottom: 0px;
+    left: 0px;
     background-color: #4aaaa5 ;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color:#ffffff ;
     text-align: center;
-    padding: 5px 5px 5px 5px;
-}
-
-#hangman-photo {
-    float: left;
-    height: 100px;
-    width: 100px;
-    padding: 20px 20px 20px 5px;
  }   
-
 
 #rpg-game-photo {
     float: right;
